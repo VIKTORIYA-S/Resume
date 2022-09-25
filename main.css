@@ -1,0 +1,198 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-size: 18px;
+    background-color: #cde4ec;
+    background-image: linear-gradient rgb(248, 255, 254), rgb(116, 250, 243);
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.offer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background: rgba(249, 252, 210, 0.973);
+    border-radius: 20px;
+    transition: all .6s;
+}
+.offer:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 650px) {
+    .offer {
+        display: block;
+        text-align: center;
+    }
+}
+.box {
+    padding-left: 30px;
+}
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 7px rgba(140, 134, 140, 0.397);
+}
+h1 {
+    font-weight: 800px;
+    margin-top: 20px;
+    transition: all .6s;
+}
+h1:hover {
+    font-size: 2.7rem;
+    transform: scale(1.1);
+}
+h1, h2, h3 {
+    color: rgb(44, 92, 252);
+}
+h3 {
+    margin-bottom: 10px;
+}
+strong {
+    color: rgb(206, 71, 68);
+}
+a {
+    transition: all .6s;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: #c44343;
+    transition: all .6s;
+    transform: scale(1.1);
+}
+.card {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(182, 255, 229);
+    border-radius: 20px;
+    transition: all .6s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.main {
+    padding-left: 30px;
+}
+.tab {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgb(252, 239, 230);
+    transition: all .6s;
+}
+.tab:hover {
+    transform: scale(1.1);
+}
+.tab th:hover {
+    color: #c44343;
+    background: #DEE074;
+}   
+tbody td:nth-child(odd) {
+    background: rgba(107, 107, 250, 0.151);
+}
+table td:hover {
+    color: #c44343;
+    background: #DEE074;
+}   
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+td {
+    color: rgba(0, 0, 0, 0.767);
+}
+.education {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgb(204, 204, 252);
+    transition: all .6s;
+}
+.education:hover {
+    transform: scale(1.1);
+}
+.target {
+    transform: scale(1.1);
+}
+hr {
+    margin: 0;
+    color: rgb(70, 111, 247);
+}
+.connection {
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all .6s;
+}
+.connection:hover {
+    transform: scale(1.1);
+}
+h2 {
+    margin-top: 0;
+}
+.box-communication {
+    display: flex;
+    border: 2px #c44343;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 650px) {
+    .box-communication {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .email {
+        margin-bottom: 10px;
+    }
+    .name {
+        margin-bottom: 10px;
+    }
+}
+.email {
+    padding-left: 20px;
+}
+.name {
+    margin-right: 40px;
+}
+input {
+    width: 340px;
+    height: 35px;
+    border-style: none none solid none;
+    border-color: blue;
+    background: transparent;
+    font-family: inherit;
+    outline: none;
+}
+textarea {
+    padding: 0;
+    border-style: none none solid none;
+    border-width: 2px;
+    border-color: rgb(68, 68, 250);
+    background: transparent;
+    font-family: inherit;
+    outline: none;
+}
+button {
+    background: rgba(53, 99, 252, 0.932);
+    color: #fff;
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    font-size: medium;
+    border-color: #fff;
+    transition: all .6s;
+}
+.btn:hover {
+    border-color: blue;
+    background-color: rgb(195, 205, 252);
+    color: rgb(252, 8, 4);
+    transform: scale(1.1);
+}
